@@ -1,6 +1,7 @@
 // add solution here
-var musicians [];
+
 function theBeatlesPlay(musicians, instruments){
+  var musicians = [];
   for (var i = 0; i < musicians.length; i++) {
     musicians[i] = instruments
   }
