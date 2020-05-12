@@ -18,8 +18,8 @@ function iLoveTheBeatles(num){
   var BeatlesArray = [];
   do {
 
-    BeatlesArray[num] = "I love the Beatles!"
-    num--;
+    BeatlesArray[15 - num] = "I love the Beatles!"
+    num++;
   } while (num > 15);
   return BeatlesArray;
 }
