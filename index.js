@@ -12,6 +12,7 @@ function johnLennonFacts(facts){
   for (var i = 0; i < facts.length; i++) {
     facts[i] = facts[i].concat("!!!");
   }
+  return facts;
 }
 function iLoveTheBeatles(num){
   var BeatlesArray = [];
